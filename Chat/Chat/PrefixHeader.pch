@@ -1,0 +1,34 @@
+//
+//  PrefixHeader.pch
+//  Chat
+//
+//  Created by linxiu on 16/6/13.
+//  Copyright © 2016年 甘真辉. All rights reserved.
+//
+
+#ifndef PrefixHeader_h
+#define PrefixHeader_h
+
+// ---------- 颜色 ----------
+#define HYRGB(r,g,b) [UIColor colorWithRed:(r)/255.f green:(g)/255.f blue:(b)/255.f alpha:1.f]
+#define HYBlueColor HYRGB(26, 107, 218) // 蓝色
+#define HYTableViewGrayColor HYRGB(245, 245, 249) // 亮灰(tableView背景)
+// ---------- 字体 ----------
+#define HYFontSize10 [UIFont systemFontOfSize:10.f]
+#define HYFontSize11 [UIFont systemFontOfSize:11.f]
+#define HYFontSize12 [UIFont systemFontOfSize:12.f]
+#define HYFontSize13 [UIFont systemFontOfSize:13.f]
+#define HYFontSize14 [UIFont systemFontOfSize:14.f]
+#define HYFontSize15 [UIFont systemFontOfSize:15.f]
+#define HYFontSize16 [UIFont systemFontOfSize:16.f]
+#define HYFontSize17 [UIFont systemFontOfSize:17.f]
+#define HYFontSize18 [UIFont systemFontOfSize:18.f]
+//屏幕宽高度
+#define HYScreenWidth [UIScreen mainScreen].bounds.size.width
+#define HYScreenHeight [UIScreen mainScreen].bounds.size.height
+
+
+#define		NOTIFICATION_APP_STARTED			@"NCAppStarted"
+
+
+#endif /* PrefixHeader_h */
